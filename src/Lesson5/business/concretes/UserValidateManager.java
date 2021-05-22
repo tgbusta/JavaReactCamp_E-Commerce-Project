@@ -44,6 +44,7 @@ public class UserValidateManager implements UserValidationService {
 		Pattern pattern = Pattern.compile(EMAIL_PATTERN,Pattern.CASE_INSENSITIVE);
 		Matcher matcher = pattern.matcher(email);
         if (matcher.matches()) {
+        	System.out.println("E-posta adresiniz geçerlidir.");
             return true;
         }
         else {

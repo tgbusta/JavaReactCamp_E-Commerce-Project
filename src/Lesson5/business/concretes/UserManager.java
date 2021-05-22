@@ -7,8 +7,7 @@ public class UserManager implements UserService{
 
 	@Override
 	public void register(User user) {
-		// TODO Auto-generated method stub
-		
+System.out.println("Kullanýcý kaydý oluþturuldu: "+user.getFirstName()+" "+user.getLastName());		
 	}
 
 	@Override
